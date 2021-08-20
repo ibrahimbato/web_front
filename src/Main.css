@@ -1,0 +1,67 @@
+html {
+  background-color: #503796;
+}
+
+#root {
+  background-color: #503796;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0a214d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-header a {
+  text-decoration: none;
+  color: white;
+  font-size: calc(7px + 2vmin);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 90px;
+  height: 80px;
+}
+
+.forImg {
+  padding: 15px;
+}
+
+.MuiPaper-root {
+  background-color: whitesmoke !important;
+}
+
+.MuiAlert-filledSuccess {
+  background-color: #4caf50 !important;
+}
